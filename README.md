@@ -2,7 +2,7 @@
 A simple proof-of-concept utilizing [Gradio Python client API](https://huggingface.co/docs/hub/spaces-api-endpoints) to incorporate GenAI models on [Hugging Face Spaces](https://huggingface.co/spaces) into 3-D content-creation workflows as Houdini Digital Assets (HDAs).
 
 <video src="https://github.com/user-attachments/assets/a7870eda-132a-488a-ba12-38f3e2348a76" controls autoplay loop muted style="max-width: 100%;">
-  Your browser does not support the video tag.
+  <img width="755" height="540" alt="assetgen" src="https://github.com/user-attachments/assets/0008597f-bfd4-45da-9cf4-08a9894235b6" />
 </video>
 
 > Example 3-D asset generated using text prompt `a humanoid robot, anime style, full-body shot full figure portrait`
@@ -48,3 +48,7 @@ Here is the list of asset-gen HDAs and their incorporated Hugging Face spaces:
 | [TextToImageGenLite](otls/object_diffgen.text2imagelite.1.0.hdanc) | [SDXL Turbo](https://huggingface.co/spaces/diffusers/unofficial-SDXL-Turbo-i2i-t2i) |
 | [ImageToMeshGenLite](otls/object_diffgen.image2meshlite.1.0.hdanc) | [TripoSR](https://huggingface.co/spaces/AleenDG/3DGenTripoSR) |
 | [DiffusionAssetGenLite](otls/object_diffgen.diffusionassetgenlite.1.0.hdanc) | Combined Workflow |
+
+## Resources
+
+* Gradio Python client [documentation](https://www.gradio.app/guides/getting-started-with-the-python-client) and [sample code snippet](https://gist.github.com/jerenchen/2c2d781d6d82dbe23b4d942fdfa88c50).
